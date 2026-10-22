@@ -1,0 +1,29 @@
+PRODUCTION PLANNING AND SCHEDULING REPORT
+=============================================
+
+SOLVER RESULTS
+---------------------------------------------
+Solver status: OPTIMAL
+Makespan: 12 time units
+Solver runtime: 0.0202 seconds
+Conflicts: 0
+Branches: 9
+
+OVERALL METRICS
+---------------------------------------------
+Total processing time: 21 time units
+Total maintenance time: 2 machine-time units
+Average machine utilization: 62.38%
+
+MACHINE-WISE METRICS
+---------------------------------------------
+ machine_id  processing_time  maintenance_time  available_time  utilization_percent
+          0                5                 0              12                41.67
+          1               10                 1              11                90.91
+          2                6                 1              11                54.55
+
+GENERATED FILES
+---------------------------------------------
+data/schedule_output.csv
+data/machine_metrics.csv
+data/schedule_gantt.png
